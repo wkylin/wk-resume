@@ -1,0 +1,69 @@
+# overall
+title: wkylin resume
+
+# page 1
+name: wkylin
+nickname: wkylin
+introduce: 前端工程师
+social:
+  github: //github.com/wkylin 
+  wechat: assets/wechat.jpg
+  email: wkylin.w@gmail.com
+  juejin: //juejin.im/user/5794851c128fe10056b62644
+  tele: 15026835870
+pdf_name: '[WKYLIN_RESUME.pdf](assets/resume.pdf)'
+
+# page 2
+education:
+  title: 教育背景
+  stages:
+    - 
+      time: 2003.06 - 2017.12 
+      university: 西安电子科技大学
+      major: 计算机信息管理
+    
+# page 3
+work_experience:
+  title: 工作经历
+  stages: 
+    - 
+      company: 资邦金服网络科技集团有限公司
+      job_title: 全栈开发工程师
+      time: 2017.3 - 至今
+      tech_stack:
+        - Angular
+        - Vue
+        - Webpack
+        - SSR
+      description:
+        - 写BUG
+        - 修BUG
+
+# page 4
+open_source:
+  title: 开源作品
+  works:
+    - 
+      name: Angular Funs
+      abstract: Angular funs...
+      link: https://wkylin.github.io/ng-funs/#/home
+      tech_stack: angular scss angular-cli pwa
+      description: 
+        - Angular funs. 
+    
+# page 5
+tech_stack:
+  title: 专业技能
+  techs:
+    - HTML5
+    - CSS3
+    - ES5/6/7
+    - Webpack
+    - VUE
+    - Angular
+    - PWA
+    - SSR
+    - SEO
+    - Git
+    - 前端工程化
+    - 性能优化

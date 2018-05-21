@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang=zh-cmn-Hans>
+<head>
+    <meta charset="UTF-8">
+    <title>wkylin resume</title>
+    <meta name="author" content="wkylin">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <meta name="keyword" content="wkylin wkylin简历">
+    <meta name="description" content="wkylin简历">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/fullpage.js@2.9.7/dist/jquery.fullpage.min.css" as="style" />
+    <link rel="preload" href="css/main.css" as="style" />
+
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js" as="script"/>
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/fullpage.js@2.9.7/dist/jquery.fullpage.min.js" as="script"/>
+
+    <link rel="preload" href="assets/wechat.jpg" as="image"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullpage.js@2.9.7/dist/jquery.fullpage.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="fullpage">
+        <!-- page 1 -->    
+        <div class="section info">
+            <div class="avatar"></div>
+            <div class="name-title">
+                <div class="name">wkylin</div>
+                <div class="title">前端工程师</div>
+            </div>
+            <ul class="contacts">
+                <!-- github -->
+                <a class="contact" target="_black" href="//github.com/wkylin">
+                    <span class="iconfont-resume icon-github"></span>
+                </a>
+                <!-- juejin -->
+                
+                    <a class="contact" target="_black" href="//juejin.im/user/5794851c128fe10056b62644">
+                        <span class="iconfont-resume icon-juejin"></span>
+                    </a>
+                
+                <!-- wechat -->
+                <a class="contact">
+                    <span class="iconfont-resume icon-wechat">
+                        <img class="wechat" src="assets/wechat.jpg"/>
+                    </span>
+                </a>
+                <!-- tele -->
+                
+                    <a class="contact" target="_black" href="tel:15026835870">
+                        <span class="iconfont-resume icon-tele">
+                            <span class="tele">15026835870</span>
+                        </span>
+                    </a>
+                
+                <!-- email -->
+                <a class="contact" href="mailto:wkylin.w@gmail.com">
+                    <span class="iconfont-resume icon-email">
+                        <span class="email">wkylin.w@gmail.com</span>
+                    </span>
+                </a>
+            </ul>
+            <span class="pdf"><a href="assets/resume.pdf" target="_blank">WKYLIN_RESUME.pdf</a></span>
+        </div>
+        <!-- page 2 -->
+        <div class="section education">
+            <h1>教育背景</h1>
+            <ul>
+              
+                <li>
+                    <time>2003.06 - 2017.12</time>
+                    <div class="school">西安电子科技大学</div>
+                    <div class="major">计算机信息管理</div>
+                </li>
+              
+            </ul>
+        </div>
+        <!-- page 3 -->
+        <div class="section experiences">
+            <h1>工作经历</h1>
+            <ul class="works">
+                
+                  <li class="work">
+                    <div class="target-border">
+                        <div class="target-dot"></div>
+                    </div>
+                    <span class="company">资邦金服网络科技集团有限公司</span>
+                    <span class="title">全栈开发工程师</span>
+                    <time>2017.3 - 至今</time>
+                    <div class="tech-stack">Angular,Vue,Webpack,SSR</div>
+                    <ul class="description">
+                        
+                          <li>写BUG</li>
+                        
+                          <li>修BUG</li>
+                        
+                    </ul>
+                </li>
+              
+            </ul>
+        </div>
+        <!-- page 4 -->
+        <div class="section opensource">
+            <h1>开源作品</h1>
+            <ul class="works">
+                
+                  <li class="work">
+                    <div class="target-border">
+                        <div class="target-dot"></div>
+                    </div>
+                    <a target="_blank" href="https://wkylin.github.io/ng-funs/#/home" class="company">Angular Funs<span class="iconfont-resume">&#xe600</span></a>
+                    <div class="abstract">Angular funs...</div>
+                    <div class="tech-stack">angular scss angular-cli pwa</div>
+                    <ul class="description">
+                        
+                          <li>Angular funs.</li>
+                        
+                    </ul>
+                </li>
+              
+            </ul>
+        </div>
+        <!-- page 5 -->
+        <div class="section skills">
+            <h1>专业技能</h1>
+            <div class="skill-container">
+                <div>
+                    
+                      <span>HTML5</span>
+                    
+                      <span>CSS3</span>
+                    
+                      <span>ES5/6/7</span>
+                    
+                      <span>Webpack</span>
+                    
+                      <span>VUE</span>
+                    
+                      <span>Angular</span>
+                    
+                      <span>PWA</span>
+                    
+                      <span>SSR</span>
+                    
+                      <span>SEO</span>
+                    
+                      <span>Git</span>
+                    
+                      <span>前端工程化</span>
+                    
+                      <span>性能优化</span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/fullpage.js@2.9.7/dist/jquery.fullpage.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                navigation: true,
+                navigationPosition: "right",
+                continuousVertical: true,
+                dragAndMove: true,
+                afterRender: function(){
+                  setTimeout(function(){
+                  $('#fullpage').css('opacity', 1)
+                  })
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
