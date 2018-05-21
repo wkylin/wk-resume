@@ -92,7 +92,12 @@ tech_stack:
     - SEO
     - Git
     - jQuery
-    - Grunt
-    - Gulp
+    - Yarn
+    - Karma
+    - Protractor
+    - Redux
+    - Sass
+    - MongoDB
+    - Swagger
     - Front End Engineering
     - Performance Optimization 
